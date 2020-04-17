@@ -15,10 +15,12 @@ div{
     padding: 20px;
     padding-top: 0px;
 }
+/*個人資訊*/
 .aboutusblock{
     width: 996px;
-    height: 800px;
+    height: 950px;
 }
+/*成員1*/
 .aboutusblock1{
     width: 262px;
     float: left;
@@ -50,14 +52,6 @@ div{
     font-family:Microsoft JhengHei;
     display: inline-block;
 }
-.aboutusblock2{
-    width: 232px;
-    display: inline-block;
-}
-.aboutusblock2 img{
-    width: 200px;
-    padding: 16px;
-}
 .aboutusblock1title2{
     width: 200px;
     height: 50px;
@@ -68,16 +62,69 @@ div{
     height: 35px;
     padding: 0px;
     padding-top: 5px;
+    padding-left: 46px;
+}
+.aboutusblock1font2{
+    width: 180px;
+    padding: 16px;
+    padding-left: 60px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    display: inline-block;
+}
+/*成員2*/
+.aboutusblock2{
+    width: 232px;
+    display: inline-block;
+}
+.aboutusblock2 img{
+    width: 200px;
+    padding: 16px;
+}
+.aboutusblock2title1{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+.aboutusblock2title1 img{
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+    padding-top: 5px;
     padding-left: 16px;
 }
 .aboutusblock2font{
     width: 180px;
     padding-left: 30px;
     padding-top: 5px;
+    padding-bottom: 16px;
     margin: 0px;
     font-size: 18px;
     font-family:Microsoft JhengHei;
 }
+.aboutusblock2title2{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+.aboutusblock2title2 img{
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.aboutusblock2font2{
+    width: 180px;
+    padding: 16px;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    display: inline-block;
+}
+/*成員3*/
 .aboutusblock3{
     width: 232px;
     display: inline-block;
@@ -86,12 +133,12 @@ div{
     width: 200px;
     padding: 16px;
 }
-.aboutusblock1title3{
+.aboutusblock3title1{
     width: 200px;
     height: 50px;
     display: inline-block;
 }
-.aboutusblock1title3 img{
+.aboutusblock3title1 img{
     width: 90px;
     height: 35px;
     padding: 0px;
@@ -102,10 +149,33 @@ div{
     width: 180px;
     padding-left: 30px;
     padding-top: 5px;
+    padding-bottom: 16px;
     margin: 0px;
     font-size: 18px;
     font-family:Microsoft JhengHei;
 }
+.aboutusblock3title2{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+.aboutusblock3title2 img{
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.aboutusblock3font2{
+    width: 180px;
+    padding: 16px;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    display: inline-block;
+}
+/*成員4*/
 .aboutusblock4{
     width: 260px;
     display: inline-block;
@@ -115,12 +185,12 @@ div{
     padding: 16px;
     padding-right: 44px;
 }
-.aboutusblock1title4{
+.aboutusblock4title1{
     width: 200px;
     height: 50px;
     display: inline-block;
 }
-.aboutusblock1title4 img{
+.aboutusblock4title1 img{
     width: 90px;
     height: 35px;
     padding: 0px;
@@ -130,8 +200,30 @@ div{
 .aboutusblock4font{
     width: 180px;
     padding: 16px;
-    padding-right: 30px;
+    padding-left: 30px;
     padding-top: 5px;
+    margin: 0px;
     font-size: 18px;
     font-family:Microsoft JhengHei;
+}
+.aboutusblock4title2{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+.aboutusblock4title2 img{
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.aboutusblock4font2{
+    width: 180px;
+    padding: 16px;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    display: inline-block;
 }
