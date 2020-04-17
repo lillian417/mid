@@ -30,11 +30,10 @@ div{
     height: 250px;
     padding: 16px;
     padding-left: 46px;
+    padding-right: 0px;
 }
 .aboutusblock1title1{
-    width: 200px;
-    height: 50px;
-    display: inline-block;
+    display: inline;
 }
 .aboutusblock1title1 img{
     width: 90px;
@@ -42,6 +41,7 @@ div{
     padding: 0px;
     padding-top: 5px;
     padding-left: 46px;
+    padding-bottom: 5px;
 }
 .aboutusblock1font{
     width: 180px;
@@ -83,9 +83,7 @@ div{
     padding: 16px;
 }
 .aboutusblock2title1{
-    width: 200px;
-    height: 50px;
-    display: inline-block;
+    display: inline;
 }
 .aboutusblock2title1 img{
     width: 90px;
@@ -93,6 +91,7 @@ div{
     padding: 0px;
     padding-top: 5px;
     padding-left: 16px;
+    padding-bottom: 5px;
 }
 .aboutusblock2font{
     width: 180px;
@@ -134,9 +133,7 @@ div{
     padding: 16px;
 }
 .aboutusblock3title1{
-    width: 200px;
-    height: 50px;
-    display: inline-block;
+    display: inline;
 }
 .aboutusblock3title1 img{
     width: 90px;
@@ -144,6 +141,7 @@ div{
     padding: 0px;
     padding-top: 5px;
     padding-left: 16px;
+    padding-bottom: 5px;
 }
 .aboutusblock3font{
     width: 180px;
@@ -186,9 +184,7 @@ div{
     padding-right: 44px;
 }
 .aboutusblock4title1{
-    width: 200px;
-    height: 50px;
-    display: inline-block;
+    display: inline;
 }
 .aboutusblock4title1 img{
     width: 90px;
@@ -196,6 +192,7 @@ div{
     padding: 0px;
     padding-top: 5px;
     padding-left: 16px;
+    padding-bottom: 5px;
 }
 .aboutusblock4font{
     width: 180px;
@@ -226,4 +223,25 @@ div{
     font-size: 18px;
     font-family:Microsoft JhengHei;
     display: inline-block;
+}
+/*fb連結*/
+.aboutusfblink{
+    width: 35px;
+    margin: 0px;
+    padding-left: 71px;
+    display: inline-block;
+}
+.aboutusfblink img{
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    padding-bottom: 5px;
+    float: right;
+}
+.aboutusvideotitle{
+    width: 996px;
+}
+.aboutusvideotitle img{
+    width: 230px;
+    padding: 20px;
 }
