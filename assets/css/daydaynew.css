@@ -1,8 +1,9 @@
+
 /*div置中，固定寬996*/
 div{
     margin:0px auto;
     width: 996px;
-    background-color: rgb(181, 248, 250);
+    background-color:	rgb(250, 247, 242);
 }
 /*介紹區塊*/
 .daydaynewtitle{
@@ -48,15 +49,4 @@ div{
 }
 .daydaynewlink a{
     text-decoration:none;
-}
-/*底部*/
-.indexbottom{
-    width: 996px;
-    height: 72px;
-}
-.indexbottom img{
-    width: 230px;
-    padding: 20px;
-    display:block;
-    margin:auto;
 }

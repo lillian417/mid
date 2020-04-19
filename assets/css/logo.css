@@ -1,26 +1,52 @@
+.background {
+    background-image: url(../../images/backgroundindex.png);
+    background-attachment:fixed;
+    margin: 0px;
+}
+/*包住logo跟menu*/
+.all{
+    width: 996px;
+    height: 67px;
+}
 /*logo div設定*/
 .logo div{
-    width: 346px;
+    width: 340px;
+    height: 67px;
 }
 .logo img{
     float: left;
     width: 230px;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 7px;
+    padding-bottom: 10px;
 }
 
 /*menu div設定*/
-.menu div{
-    width: 650px;
+.menu {
+    width: 996px;
+    height: 67px;
+    background-color: rgb(243, 220, 191);
 }
 .menu ul,li{
     list-style-type:none;
     display: inline;
 }
 .menu img{
-    width: 90px;
+    width: 93px;
     height: 30px;
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/*底部*/
+.indexbottom {
+    width: 996px;
+    height: 80px;
+    background-color: rgba(252, 211, 162, 0.932);
+}
+.indexbottom img{
+    width: 230px;
+    padding: 20px;
+    margin:auto;
+    display:block;
 }

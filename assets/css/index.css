@@ -1,26 +1,28 @@
+
 /*div置中，固定寬996*/
 div{
     margin:0px auto;
     width: 996px;
-    background-color: rgb(181, 248, 250);
+    background-color:	rgb(250, 247, 242);
 }
 /*首頁標題1*/
-.indexblock1 div{
-    width: 650px;
+.indexblock1 {
+    width: 600px;
     float: left;
 }
-.indextitle1 div{
+.indextitle1 {
     width: 664px;
-    height: 100px; 
+    height: 60px; 
 }
 .indextitle1 img{
-    width: 430px;
+    width: 410px;
+    height: 40px;
     padding-top: 15px;
     padding-bottom: 10px; 
     padding-left: 10px; 
 }
 /*首頁標題一之圖片*/
-.indextp1 div{
+.indextp1{
     display: inline;
 }
 .indextp1 img{
@@ -28,12 +30,12 @@ div{
     padding-right: 5px;
 }
 /*標題1之內文*/
-.indexfont1 div{
-    width: 550px;
+.indexfont1 {
+    width: 500px;
     float: left;
     font-size: 18px;
     padding: 10px;
-    padding-left: 50px;
+    padding-left: 30px;
     font-family:Microsoft JhengHei;
     letter-spacing: 1.5px;
     line-height: 27px;
@@ -41,13 +43,13 @@ div{
     text-indent:2em;
 }
 /*首頁標題2*/
-.indextitle2 div{
+.indextitle2 {
     width: 996px;
 }
 .indextitle2 img{
     display:block;
     margin:auto;
-    height: 40px;
+    height: 43px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -122,7 +124,7 @@ div{
     width: 332px;
     height: 270px;
     padding-left: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 95px;
 }
 .indexblock3{
     width: 996px;
@@ -139,29 +141,20 @@ div{
 }
 .indextitle3 img{
     width: 280px;
-    height: 40px;
+    height: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;  
 }
-.indexfont3 div{
+.indexfont3 {
     width: 500px;
     float: left;
     font-size: 18px;
     padding: 10px;
-    padding-left: 80px;
+    padding-left: 45px;
     font-family:Microsoft JhengHei;
     letter-spacing: 1.5px;
     line-height: 27px;
     font-weight: bold;
     text-indent:2em;
-}
-/*底部*/
-.indexbottom div{
-    width: 996px;
-    height: 72px;
-}
-.indexbottom img{
-    width: 230px;
-    padding: 20px;
 }

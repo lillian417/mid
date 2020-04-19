@@ -2,7 +2,7 @@
 div{
     margin:0px auto;
     width: 996px;
-    background-color: rgb(181, 248, 250);
+    background-color: rgb(250, 247, 242);
 }
 /*標題*/
 .contactustitle{
@@ -16,7 +16,7 @@ div{
 /*表單*/
 .formblock{
     width: 996px;
-    height: 500px;
+    height: 520px;
 }
 .formblock1{
     width: 800px;
@@ -35,7 +35,7 @@ div{
 .formblock4{
     width: 800px;
     height: 30px;
-    padding: 50px;
+    padding: 60px;
 }
 /*姓名*/
 .formblock1_1{
@@ -147,7 +147,7 @@ input[type=text]{
     outline: none;
 }
 input[type=text]:focus {
-    border: 2px solid rgba(79, 219, 51, 0.966);
+    border: 2px solid rgba(70, 119, 255, 0.966);
   }
 textarea{
     height: 18px;
@@ -157,29 +157,17 @@ textarea{
     outline: none;
 }
 textarea:focus{
-    border: 2px solid rgba(79, 219, 51, 0.966);
+    border: 2px solid rgba(70, 119, 255, 0.966);
 }
 input[type=submit]{
-    font-size: 16px;
+    font-size: 18px;
     font-family:Microsoft JhengHei;
     font-weight: bold;
-    background-color: rgb(134, 255, 209);
+    background-color: rgba(216, 213, 255, 0.788);
 }
 input[type=reset]{
-    font-size: 16px;
+    font-size: 18px;
     font-family:Microsoft JhengHei;
     font-weight: bold;
-    background-color: rgb(134, 255, 209);
-}
-
-/*底部*/
-.indexbottom{
-    width: 996px;
-    height: 72px;
-}
-.indexbottom img{
-    width: 230px;
-    padding: 20px;
-    display:block;
-    margin:auto;
+    background-color: rgba(216, 213, 255, 0.788);
 }
