@@ -38,17 +38,21 @@ div{
     float: right;
     padding-right: 20px;
 }
+/*整個圈起來teb*/
+.allteb{
+    width: 996px;
+    height: 770px;
+}
 /*tab的部分*/
 .tabpage{
-    width: 996px;
+    width: 960px;
     margin: 0px auto;
 }
-.tabtitle{
+.tabtitle {
     width: 996px;
 }
 #taboutside{
     width:996px;
-    height:50px;
 }
 #taboutside ul{
     display:block;
@@ -57,13 +61,13 @@ div{
 }
 #taboutside li{
     display:inline-block;
-    vertical-align:top;
     font-family:'微軟正黑體';
-    border:1px solid #BCBCBC;
-    height:25px;
-    line-height:25px;
-    background:#cdcdcd;
-    padding:0 15px;
+    font-weight: bold;
+    font-size: 36px;
+    border:2px solid rgba(145, 82, 23, 0.397);
+    height:55px;
+    /* background:#cdcdcd; */
+    padding:0 40px;
     list-style:none;
     box-sizing:border-box;
 }
@@ -72,15 +76,28 @@ div{
     text-decoration:none;
 }
 #taboutside li.active{
-    border-bottom:1px solid #fff;
-    background:#fff;
+    height: 60px;
+    border-bottom:0px solid #fff;
+    background:#fff !important;
 }
 #taboutside .tabinside{
     clear:both;
     color:#000;
-    border:1px #BCBCBC solid;
+    border:3px rgba(145, 82, 23, 0.397) solid;
 }
 .tabinside{
-    width: 994px;
-    height:1000px;
+    width: 950px;
+    height:620px;
+    overflow-y: scroll;
+    font-family: Microsoft JhengHei;
+}
+.tabinside th{
+    width: 150px;
+    font-size: larger;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tabinside td{
+    text-align: center;
+    width: 16%;
 }

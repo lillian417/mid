@@ -59,94 +59,129 @@
             <iframe width="332" height="187" src="https://www.youtube.com/embed/LytbfTogB2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="tabpage" id="taboutside">
-        <ul class="tabtitle">
-            <li><a href="#tab01">天</a></li>
-            <li><a href="#tab02">人</a></li>
-            <li><a href="#tab03">物</a></li>
-            <li><a href="#tab04">我</a></li>
-        </ul>
-        <div id='tab01' class="tabinside">
-            <table>
-              <thead>
-                <th scope='col'>課程名稱</th>
-                <th scope='col'>課程代碼</th>
-                <th scope='col'>課程類型</th>
-                <th scope='col'>授課時間</th>
-                <th scope='col'>授課地點</th>
-                <th scope='col'>授課教師</th>
-              </thead>
-              <tr v-for="Value in sky">
-                <td>{{Value.課程名稱}}</td>
-                <td>{{Value.課程代碼}}</td>
-                <td>{{Value.開課班級}}</td>
-                <td>{{Value.時間1}}</td>
-                <td>{{Value.教室1}}</td>
-                <td>{{Value.授課教師}}</td>
-              </tr>
-            </table>
-          </div>
-          <div id='tab02' class="tabinside">
-            <table>
-              <thead>
-                <th scope='col'>課程名稱</th>
-                <th scope='col'>課程代碼</th>
-                <th scope='col'>課程類型</th>
-                <th scope='col'>授課時間</th>
-                <th scope='col'>授課地點</th>
-                <th scope='col'>授課教師</th>
-              </thead>
-              <tr v-for="Value in people">
-                <td>{{Value.課程名稱}}</td>
-                <td>{{Value.課程代碼}}</td>
-                <td>{{Value.開課班級}}</td>
-                <td>{{Value.時間1}}</td>
-                <td>{{Value.教室1}}</td>
-                <td>{{Value.授課教師}}</td>
-              </tr>
-            </table>
-          </div>
-          <div id='tab03' class="tabinside">
-            <table>
-              <thead>
-                <th scope='col'>課程名稱</th>
-                <th scope='col'>課程代碼</th>
-                <th scope='col'>課程類型</th>
-                <th scope='col'>授課時間</th>
-                <th scope='col'>授課地點</th>
-                <th scope='col'>授課教師</th>
-              </thead>
-              <tr v-for="Value in thing">
-                <td>{{Value.課程名稱}}</td>
-                <td>{{Value.課程代碼}}</td>
-                <td>{{Value.開課班級}}</td>
-                <td>{{Value.時間1}}</td>
-                <td>{{Value.教室1}}</td>
-                <td>{{Value.授課教師}}</td>
-              </tr>
-            </table>
-          </div>
-          <div id='tab04' class="tabinside">
-            <table>
-              <thead>
-                <th scope='col'>課程名稱</th>
-                <th scope='col'>課程代碼</th>
-                <th scope='col'>課程類型</th>
-                <th scope='col'>授課時間</th>
-                <th scope='col'>授課地點</th>
-                <th scope='col'>授課教師</th>
-              </thead>
-              <tr v-for="Value in me">
-                <td>{{Value.課程名稱}}</td>
-                <td>{{Value.課程代碼}}</td>
-                <td>{{Value.開課班級}}</td>
-                <td>{{Value.時間1}}</td>
-                <td>{{Value.教室1}}</td>
-                <td>{{Value.授課教師}}</td>
-              </tr>
-            </table>
-          </div>
+    <div class="allteb">
+      <div class="tabpage" id="taboutside">
+          <ul class="tabtitle">
+              <li style="background-color: rgba(255, 200, 117, 0.979);"><a href="#tab01">天</a></li>
+              <li style="background-color: rgba(255, 163, 183, 0.979);"><a href="#tab02">人</a></li>
+              <li style="background-color: rgba(157, 207, 255, 0.979);"><a href="#tab03">物</a></li>
+              <li style="background-color: rgba(173, 230, 150, 0.979);"><a href="#tab04">我</a></li>
+          </ul>
+          <div id='tab01' class="tabinside">
+              <table>
+                <thead style="position: absolute; background-color: rgba(255, 200, 117, 0.979);margin-top: -1.7px;margin-left: -2px;">
+                  <th scope='col' style="width: 18.5%;">課程名稱</th>
+                  <th scope='col'>課程代碼</th>
+                  <th scope='col'>課程類型</th>
+                  <th scope='col' style="width: 15.3%;">授課時間</th>
+                  <th scope='col'>授課地點</th>
+                  <th scope='col'>授課教師</th>
+                </thead>
+                <tr style="height: 38px;">
+                  <th scope='col' style="width: 18%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                  <th scope='col' style="width: 14%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                </tr>
+                <tr v-for="Value in sky">
+                  <td style="width: 18%;">{{Value.課程名稱}}</td>
+                  <td>{{Value.課程代碼}}</td>
+                  <td>{{Value.開課班級}}</td>
+                  <td style="width: 14%;">{{Value.時間1}}</td>
+                  <td>{{Value.教室1}}</td>
+                  <td>{{Value.授課教師}}</td>
+                </tr>
+              </table>
+            </div>
+            <div id='tab02' class="tabinside">
+              <table>
+                <thead style="position: absolute; background-color: rgba(255, 163, 183, 0.979);margin-top: -1.7px;margin-left: -2px;">
+                  <th scope='col' style="width: 18.5%;">課程名稱</th>
+                  <th scope='col'>課程代碼</th>
+                  <th scope='col'>課程類型</th>
+                  <th scope='col' style="width: 15.3%;">授課時間</th>
+                  <th scope='col'>授課地點</th>
+                  <th scope='col'>授課教師</th>
+                </thead>
+                <tr style="height: 38px;">
+                  <th scope='col' style="width: 18%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                  <th scope='col' style="width: 14%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                </tr>
+                <tr v-for="Value in people">
+                  <td style="width: 18%;">{{Value.課程名稱}}</td>
+                  <td>{{Value.課程代碼}}</td>
+                  <td>{{Value.開課班級}}</td>
+                  <td style="width: 14%;">{{Value.時間1}}</td>
+                  <td>{{Value.教室1}}</td>
+                  <td>{{Value.授課教師}}</td>
+                </tr>
+              </table>
+            </div>
+            <div id='tab03' class="tabinside">
+              <table>
+                <thead style="position: absolute; background-color: rgba(157, 207, 255, 0.979);margin-top: -1.7px;margin-left: -2px;">
+                  <th scope='col' style="width: 18.5%;">課程名稱</th>
+                  <th scope='col'>課程代碼</th>
+                  <th scope='col'>課程類型</th>
+                  <th scope='col' style="width: 15.3%;">授課時間</th>
+                  <th scope='col'>授課地點</th>
+                  <th scope='col'>授課教師</th>
+                </thead>
+                <tr style="height: 38px;">
+                  <th scope='col' style="width: 18%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                  <th scope='col' style="width: 14%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                </tr>
+                <tr v-for="Value in thing">
+                  <td style="width: 18%;">{{Value.課程名稱}}</td>
+                  <td>{{Value.課程代碼}}</td>
+                  <td>{{Value.開課班級}}</td>
+                  <td style="width: 14%;">{{Value.時間1}}</td>
+                  <td>{{Value.教室1}}</td>
+                  <td>{{Value.授課教師}}</td>
+                </tr>
+              </table>
+            </div>
+            <div id='tab04' class="tabinside">
+              <table>
+                <thead style="position: absolute; background-color: rgba(173, 230, 150, 0.979);margin-top: -1.7px;margin-left: -2px;">
+                  <th scope='col' style="width: 18.5%;">課程名稱</th>
+                  <th scope='col'>課程代碼</th>
+                  <th scope='col'>課程類型</th>
+                  <th scope='col' style="width: 15.3%;">授課時間</th>
+                  <th scope='col'>授課地點</th>
+                  <th scope='col'>授課教師</th>
+                </thead>
+                <tr style="height: 38px;">
+                  <th scope='col' style="width: 18%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                  <th scope='col' style="width: 14%;"></th>
+                  <th scope='col'></th>
+                  <th scope='col'></th>
+                </tr>
+                <tr v-for="Value in me">
+                  <td style="width: 18%;">{{Value.課程名稱}}</td>
+                  <td>{{Value.課程代碼}}</td>
+                  <td>{{Value.開課班級}}</td>
+                  <td style="width: 14%;">{{Value.時間1}}</td>
+                  <td>{{Value.教室1}}</td>
+                  <td>{{Value.授課教師}}</td>
+                </tr>
+              </table>
+            </div>
+      </div>
     </div>
+    <div class="indexbottom"><img src="images/bottomph.png"></div>
 </body>
 <script src="assets/js/course.js"></script>
 </html>

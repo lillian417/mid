@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/logo.css">
     <link rel="stylesheet" href="assets/css/decoration.css">
     <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body class="background">
@@ -45,5 +46,72 @@
     <div class="decoration"><img style="padding-top: 0px; padding-bottom: 80px;" src="images/indexdecoration1.png"></div>
     <div class="activitytitle"><img src="images/activitytitle.png"></div>
     <div class="activityfont">中原大學教育理念之首要特強調「尊重自然與人性的尊嚴，尋求天人物我間的和諧」。因此，本校通識教育除正式授與學分的通識課程外，每學期均綜合專家意見與大眾意見，規劃多場精彩豐富的通識活動。通識活動涵蓋的範圍包括文學、音樂、藝術、舞蹈、戲劇、電影、哲學、婚姻、交友、感情…等。從傳統到現代，從本土到世界，認識現世，終極關懷；融合人文與人本的情懷於宗教信仰的虔誠之中，敬天畏人，踐履篤實。學校多年來在每學年投入百餘萬之經費，有系統的規劃執行整學年的通識活動，在生命品格教育的正面意義和影響力深獲全校師生的高度認同。</div>
+    <div id='act' class="activityblock">
+        <div class="chooseblock">
+            <ul>
+                <b>以類別篩選：</b>
+                <br>
+                <li id="ch1" @click="changetome('講座')">講座</li>
+                <br>
+                <li id="ch2" @click="changetome('DIY')">DIY</li>
+                <br>
+                <li id="ch3" @click="changetome('風雅頌')">風雅頌</li>
+                <br>
+                <li id="ch4" @click="changetome('樂曲悠揚')">樂曲悠揚</li>
+                <br>
+                <li id="ch5" @click="changetome('通識藝文')">通識藝文</li>
+                <br>
+                <li id="ch6" @click="changetome('人生講座')">人生講座</li>
+                <br>
+                <li id="ch7" @click="changetome('桌遊系列')">桌遊系列</li>
+                <br>
+                <li id="ch8" @click="changetome('博雅電影院')">博雅電影院</li>
+                <br>
+                <li id="ch9" @click="changetome('全人博雅講壇')">全人博雅講壇</li>
+                <br>
+                <li id="ch10" @click="changetome('電影播放暨講評')">電影播放暨講評</li>
+                <br>
+                <li id="ch11" @click="changetome('服務學習系列活動')">服務學習系列活動</li>
+                <br>
+                <li id="ch12" @click="changetome('職涯規劃系列講座')">職涯規劃系列講座</li>
+                <br>
+                <br>
+                <b>以月份篩選：</b>
+                <br>
+                <li id="ch13" @click="changetome('三月')">三月</li>
+                <br>
+                <li id="ch14" @click="changetome('四月')">四月</li>
+                <br>
+                <li id="ch15" @click="changetome('五月')">五月</li>
+                <br>
+                <li id="ch16" @click="changetome('六月')">六月</li>
+                <br>
+            </ul>
+        </div>
+        <div class="tabinside actbox">
+            <table>
+              <thead style="position: absolute; background-color: rgba(240, 196, 171, 0.979);margin-top: -1.7px;margin-left: -7px;">
+                <th style="width: 75px;" scope='col'>日期</th>
+                <th style="width: 100px;" scope='col'>時間</th>
+                <th style="width: 245px;" scope='col'>活動地點</th>
+                <th style="width: 326px;" scope='col'>活動名稱</th>
+              </thead>
+              <tr style="height: 30px;">
+                <tr style="width: 11%;" scope='col'></th>
+                <tr style="width: 14%;" scope='col'></th>
+                <tr style="width: 33%;" scope='col'></th>
+                <tr style="width: 42%;" scope='col'></th>
+              </tr>
+              <tr v-for="Value in filteredrawdata">
+                <td style="width: 11%;">{{Value.日期}}</td>
+                <td style="width: 14%;">{{Value.時間}}</td>
+                <td style="width: 33%;">{{Value.活動地點}}</td>
+                <td style="width: 42%;">{{Value.活動名稱}}</td>
+              </tr>
+            </table>
+          </div>
+    </div>
+    <div class="indexbottom"><img src="images/bottomph.png"></div>
 </body>
+<script src="assets/js/activity.js"></script>
 </html>

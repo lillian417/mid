@@ -24,4 +24,165 @@ div{
     text-indent:2em;
     padding: 50px;
     padding-top: 20px;
+    padding-bottom: 110px;
+}
+/*篩選器整體*/
+.activityblock{
+    width: 996px;
+    height: 830px;
+    font-family:Microsoft JhengHei;
+}
+
+.chooseblock{
+    width: 173px;
+    height: 692px;
+    float: left;
+    border:2px dashed rgba(151, 75, 3, 0.699);
+    margin-left: 15px;
+    padding-top: 10px;
+    border-right: none;
+    background-color: rgb(245, 224, 186);
+}
+.chooseblock ul{
+    width: 170px;
+    padding-left: 8px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.chooseblock li{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.actbox{
+    width: 770px;
+    height: 700px;
+    float: right;
+    margin-right: 20px;
+    border: 3px solid rgba(151, 75, 3, 0.699);
+    overflow-y: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.actbox th{
+    font-size: larger;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.actbox td{
+    text-align: left;
+}
+
+/*以下為變色系列*/
+#ch1:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch1{
+    cursor: pointer;
+}
+#ch2:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch2{
+    cursor: pointer;
+}
+#ch3:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch3{
+    cursor: pointer;
+}
+#ch4:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch4{
+    cursor: pointer;
+}
+#ch5:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch5{
+    cursor: pointer;
+}
+#ch6:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch6{
+    cursor: pointer;
+}
+#ch7:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch7{
+    cursor: pointer;
+}
+#ch8:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch8{
+    cursor: pointer;
+}
+#ch9:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch9{
+    cursor: pointer;
+}
+#ch10:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch10{
+    cursor: pointer;
+}
+#ch11:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch11{
+    cursor: pointer;
+}
+#ch12:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch12{
+    cursor: pointer;
+}
+#ch13:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch13{
+    cursor: pointer;
+}
+#ch14:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch14{
+    cursor: pointer;
+}
+#ch15:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch15{
+    cursor: pointer;
+}
+#ch16:hover{
+    font-weight: bold;
+    color: rgb(245, 131, 0);
+}
+#ch16{
+    cursor: pointer;
 }

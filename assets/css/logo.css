@@ -9,10 +9,6 @@
     height: 67px;
 }
 /*logo div設定*/
-.logo div{
-    width: 340px;
-    height: 67px;
-}
 .logo img{
     float: left;
     width: 230px;
@@ -20,7 +16,6 @@
     padding-left: 7px;
     padding-bottom: 10px;
 }
-
 /*menu div設定*/
 .menu {
     width: 996px;
