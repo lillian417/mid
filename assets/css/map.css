@@ -1,0 +1,38 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color:	rgb(250, 247, 242);
+}
+.maptitle1{
+    width: 996px;
+}
+.maptitle1 img{
+    display:block;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+.schoolmap{
+    width: 996px;
+    height: 575px;
+}
+.schoolmap img{
+    width: 800px;
+    display:block;
+    margin: auto;
+}
+/*介紹影片*/
+.maptitle2{
+    width: 996px;
+}
+.maptitle2 img{
+    display:block;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+.mapvideo{
+    width: 996px;
+    height: 630px;
+}

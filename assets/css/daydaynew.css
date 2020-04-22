@@ -1,0 +1,52 @@
+
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color:	rgb(250, 247, 242);
+}
+/*介紹區塊*/
+.daydaynewtitle{
+    width: 996px;
+}
+.daydaynewtitle img{
+    width: 650px;
+    padding-left: 10px;
+}
+.daydaynewfont{
+    width: 896px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+/*活動連結*/
+.daydaynewtitle2{
+    width: 996px;
+    margin: 0px auto;
+}
+.daydaynewtitle2 img{
+    width: 150px;
+    padding-left: 15px;
+}
+.daydaynewlink {
+    width: 996px;
+    height: 300px;
+    margin: 0px;
+    padding-bottom: 80px;
+}
+.daydaynewlink li{
+    width: 900px;
+    float: left;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    padding: 20px;
+}
+.daydaynewlink a{
+    text-decoration:none;
+}
